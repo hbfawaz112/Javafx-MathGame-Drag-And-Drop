@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" fx:id="rootPane" prefHeight="489.0" prefWidth="755.0" styleClass="bodybg" stylesheets="@FXMLDocument.css" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="project.NewgameController">
+   <children>
+      <Button fx:id="goback" layoutY="1.0" mnemonicParsing="false" onAction="#goback_click" prefHeight="35.0" prefWidth="94.0" styleClass="button_style" stylesheets="@FXMLDocument.css" text="Go Back" textFill="#e48006">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Button>
+      <Label layoutX="199.0" layoutY="7.0" text="Select What You Want To Larn" textFill="#e48006">
+         <font>
+            <Font name="System Bold Italic" size="25.0" />
+         </font>
+      </Label>
+      <Label layoutY="447.0" text="V1.0" textFill="#e48006">
+         <font>
+            <Font name="System Bold Italic" size="25.0" />
+         </font>
+      </Label>
+      <ImageView fx:id="basic_math" fitHeight="150.0" fitWidth="200.0" layoutX="66.0" layoutY="147.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@imgs/block-toy-building-blocks-kids-number-toy-number-blocks-wooden-number-blocks-png-512_512.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="calculation" fitHeight="150.0" fitWidth="200.0" layoutX="303.0" layoutY="154.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@imgs/—Pngtree—math%20calculations_4124283.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="geometrie" fitHeight="150.0" fitWidth="200.0" layoutX="546.0" layoutY="147.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@imgs/favpng_toddler-shapes-kids-kids-dinosaurs-toddler-numbers-and-counting-tap-the-shape-smart-baby-shapes.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="66.0" layoutY="297.0" text="Basic Math" textFill="#fffa0f">
+         <font>
+            <Font name="System Bold Italic" size="29.0" />
+         </font>
+      </Label>
+      <Label layoutX="303.0" layoutY="297.0" text="Calculation" textFill="#fffa0f">
+         <font>
+            <Font name="System Bold Italic" size="29.0" />
+         </font>
+      </Label>
+      <Label layoutX="557.0" layoutY="297.0" text="Geometrie" textFill="#fffa0f">
+         <font>
+            <Font name="System Bold Italic" size="29.0" />
+         </font>
+      </Label>
+      <ImageView fx:id="board_img" fitHeight="86.0" fitWidth="124.0" layoutX="652.0" layoutY="-7.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@imgs/pnghut_board-of-education-bulletin-clip-art-game-green-blackboard-chalk-white.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="678.0" layoutY="72.0" text="Board" textFill="#ff510f">
+         <font>
+            <Font name="System Bold Italic" size="21.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
