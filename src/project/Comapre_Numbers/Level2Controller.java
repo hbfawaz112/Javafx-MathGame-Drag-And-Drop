@@ -47,11 +47,12 @@ public class Level2Controller implements Initializable {
     private ImageView img2;
     
     String resultvalue;
+    @FXML
     private AnchorPane rootpane;
     @FXML
     private Label Label_Error;
-     @FXML
-    private AnchorPane RootPane;
+    
+    
     /**
      * Initializes the controller class.
      */
@@ -119,7 +120,7 @@ public class Level2Controller implements Initializable {
                    } catch (IOException ex) {
                        Logger.getLogger(project.Count_Objects.Level1Controller.class.getName()).log(Level.SEVERE, null, ex);
                    }
-                    RootPane.getChildren().setAll(pane);
+                    rootpane.getChildren().setAll(pane);
                }
           });
         
@@ -174,8 +175,8 @@ public class Level2Controller implements Initializable {
 
     @FXML
     private void go_back(ActionEvent event) throws IOException {
-         AnchorPane pane1 =  FXMLLoader.load(getClass().getResource("/project/BasicMath.fxml")); 
-       rootpane.getChildren().setAll(pane1);
+        AnchorPane pane1 =  FXMLLoader.load(getClass().getResource("/project/BasicMath.fxml")); 
+         rootpane.getChildren().setAll(pane1);
     }
     
 }

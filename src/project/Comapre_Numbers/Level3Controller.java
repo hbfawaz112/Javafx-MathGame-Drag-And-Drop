@@ -127,14 +127,9 @@ public class Level3Controller implements Initializable {
     }
 
     @FXML
-    private void Go_Back_Action(ActionEvent event) {
-         AnchorPane pane1=null; 
-                   try {
-                       pane1 = FXMLLoader.load(getClass().getResource("project/BasicMath.fxml"));
-                   } catch (IOException ex) {
-                       Logger.getLogger(NewgameController.class.getName()).log(Level.SEVERE, null, ex);
-                   }
-                   rootpane.getChildren().setAll(pane1);
+    private void Go_Back_Action(ActionEvent event) throws IOException {
+         AnchorPane pane1 =  FXMLLoader.load(getClass().getResource("/project/BasicMath.fxml")); 
+         rootpane.getChildren().setAll(pane1);
     }
 
     @FXML

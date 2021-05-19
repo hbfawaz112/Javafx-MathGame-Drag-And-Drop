@@ -123,8 +123,7 @@ public class Level4Controller implements Initializable {
             img3.setOpacity(0.5);
             
             
-            
-            next_button.setDisable(false);
+           next_button.setDisable(false);
              next_button.addEventHandler(MouseEvent.MOUSE_CLICKED, new EventHandler<MouseEvent>() {
 
                @Override
@@ -132,12 +131,14 @@ public class Level4Controller implements Initializable {
                    
                    AnchorPane pane=null; 
                    try {
-                       pane = FXMLLoader.load(getClass().getResource("Level5.fxml"));
+                 
+                       pane = FXMLLoader.load(getClass().getResource("Level1.fxml"));
                    } catch (IOException ex) {
                        Logger.getLogger(project.Count_Objects.Level1Controller.class.getName()).log(Level.SEVERE, null, ex);
                    }
                     rootpane.getChildren().setAll(pane);
                }
+         
           });
         
             
@@ -178,16 +179,9 @@ public class Level4Controller implements Initializable {
     }
 
     @FXML
-    private void go_back_action(ActionEvent event) {
-        
-        //System.out.println("clicked");
-         AnchorPane pane1=null; 
-                   try {
-                       pane1 = FXMLLoader.load(getClass().getResource("project/BasicMath.fxml"));
-                   } catch (IOException ex) {
-                       Logger.getLogger(NewgameController.class.getName()).log(Level.SEVERE, null, ex);
-                   }
-                   rootpane.getChildren().setAll(pane1);
+    private void go_back_action(ActionEvent event) throws IOException {
+        AnchorPane pane1 =  FXMLLoader.load(getClass().getResource("/project/BasicMath.fxml")); 
+         rootpane.getChildren().setAll(pane1);
     }
     
 }

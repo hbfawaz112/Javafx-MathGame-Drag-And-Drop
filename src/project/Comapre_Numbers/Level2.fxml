@@ -8,7 +8,7 @@
 <?import javafx.scene.layout.Pane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane id="AnchorPane" fx:id="RootPane" prefHeight="489" prefWidth="755.0" styleClass="bodybg" stylesheets="@../FXMLDocument.css" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="project.Comapre_Numbers.Level2Controller">
+<AnchorPane id="AnchorPane" fx:id="rootpane" prefHeight="489" prefWidth="755.0" styleClass="bodybg" stylesheets="@../FXMLDocument.css" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="project.Comapre_Numbers.Level2Controller">
    <children>
       <ImageView fitHeight="191.0" fitWidth="97.0" layoutX="24.0" layoutY="105.0" pickOnBounds="true" preserveRatio="true">
          <image>

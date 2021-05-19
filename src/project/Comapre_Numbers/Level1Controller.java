@@ -176,9 +176,8 @@ public class Level1Controller implements Initializable {
     @FXML
     private void go_back(ActionEvent event) throws IOException {
         
-        AnchorPane pane1 =  FXMLLoader.load(getClass().getResource("/project/BasicMath.fxml")); 
-       rootpane.getChildren().setAll(pane1);
-                   //event.consume();
+      AnchorPane pane1 =  FXMLLoader.load(getClass().getResource("/project/BasicMath.fxml")); 
+         rootpane.getChildren().setAll(pane1);
     }
 
     

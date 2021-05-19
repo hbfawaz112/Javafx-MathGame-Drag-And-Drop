@@ -89,7 +89,7 @@
             <Image url="@../../imgs/numbers/8_g.png" />
          </image>
       </ImageView>
-      <Label fx:id="Label_Error" layoutX="170.0" layoutY="317.0" textFill="#38f20a">
+      <Label fx:id="Label_Error" layoutX="180.0" layoutY="305.0" textFill="#38f20a">
          <font>
             <Font name="System Bold Italic" size="32.0" />
          </font>

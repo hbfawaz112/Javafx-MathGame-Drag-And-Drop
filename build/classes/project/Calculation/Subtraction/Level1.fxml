@@ -25,7 +25,7 @@
             <Image url="@../../Count_Objects/next_button.jpg" />
          </image>
       </ImageView>
-      <Pane layoutX="124.0" layoutY="17.0" prefHeight="288.0" prefWidth="538.0" styleClass="pane_border1" stylesheets="@../../FXMLDocument.css">
+      <Pane layoutX="125.0" prefHeight="288.0" prefWidth="538.0" styleClass="pane_border1" stylesheets="@../../FXMLDocument.css">
          <children>
             <Label layoutX="230.0" text="Level 1" textFill="#eb7004">
                <font>
@@ -88,7 +88,7 @@
             <Image url="@../../imgs/numbers/8_g.png" />
          </image>
       </ImageView>
-      <Label fx:id="Label_Error" layoutX="180.0" layoutY="327.0" textFill="#38f20a">
+      <Label fx:id="Label_Error" layoutX="190.0" layoutY="290.0" textFill="#38f20a">
          <font>
             <Font name="System Bold Italic" size="32.0" />
          </font>
